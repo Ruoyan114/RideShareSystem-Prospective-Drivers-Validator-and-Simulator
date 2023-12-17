@@ -1,0 +1,75 @@
+{
+  "driver": {
+    "firstname": "John",
+    "lastname": "Doe",
+    "birth": "1985-01-15",
+    "license": {
+      "number": "D12345678",
+      "issuance": "2010-08-15",
+      "expiration": "2025-08-15",
+      "address": "123 Main St, Springfield",
+      "country": "US",
+      "state": "IL"
+    },
+    "violations": [
+      {
+        "type": "Speeding",
+        "date": "2021-04-22"
+      },
+      {
+        "type": "Parking Violation",
+        "date": "2022-01-05"
+      }
+    ]
+  },
+  "vehicles": [
+    {
+      "make": "Toyota",
+      "model": "Camry",
+      "year": 2019,
+      "number": "XYZ1234",
+      "color": "Blue",
+      "insurance": {
+        "expiration": "2023-12-31",
+        "drivers": [
+          {
+            "firstname": "John",
+            "lastname": "Doe",
+            "birth": "1985-01-15"
+          }
+        ]
+      },
+      "violations": [],
+      "crashes": []
+    },
+    {
+      "make": "Honda",
+      "model": "Civic",
+      "year": 2017,
+      "number": "ABC5678",
+      "color": "Gray",
+      "insurance": {
+        "expiration": "2024-05-20",
+        "drivers": [
+          {
+            "firstname": "John",
+            "lastname": "Doe",
+            "birth": "1985-01-15"
+          }
+        ]
+      },
+      "violations": [
+        {
+          "type": "Running a red light",
+          "date": "2021-07-11"
+        }
+      ],
+      "crashes": [
+        {
+          "type": "Fender-bender",
+          "date": "2020-09-03"
+        }
+      ]
+    }
+  ]
+}

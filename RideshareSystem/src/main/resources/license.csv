@@ -1,0 +1,3 @@
+driverId, number, name, address, birthDate, countryOfIssuance, stateOfIssuance, issuedDate, expirationDate
+12345, DL123456, John Doe, 123 Main St, 1990-05-15, US, CA, 2010-07-01, 2025-07-01
+67890, DL789012, Jane Smith, 456 Oak St, 1985-10-20, US, NY, 2012-09-15, 2027-09-15
